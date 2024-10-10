@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="main-container__loading">Loading Questions...</div>
+      <div class="questions-container hidden">
+        <div class="questions">
+          <div class="question"></div>
+          <div class="answers-container"></div>
+        </div>
+        <div class="questions-counter">1 of 10</div>
+      </div>
+      <table class="hidden table-fixed">
+        <thead>
+          <tr>
+            <th>Question</th>
+            <th>Your Answer</th>
+            <th>Correct Answer</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
